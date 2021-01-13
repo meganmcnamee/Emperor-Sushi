@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image: url("../Images/Bg_Image.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+a
+{
+	text-decoration: none !important;
+}
+#title
+{
+	color: white;
+	font-size: 50px;
+}
+
+#subtitle
+{
+	color: firebrick;
+	font-size: 50px;
+	
+}
+
+form
+{
+	background-color:transparent;
+	
+}
+
+#Username
+{
+	background-color: #333333;
+	border-radius: 25px;
+}
+
+
+#Password
+{
+	background-color: #333333;
+	border-radius: 25px;
+}
+#ConfirmPassword
+{
+	background-color: #333333;
+	border-radius: 25px;
+}
+
+button
+{
+	border-radius: 25px!important;
+}
+
+#signup
+{
+	text-decoration: none;
+	color:white;
+}

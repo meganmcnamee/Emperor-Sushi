@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emperor Sushi - Menu</title>
+    
+    <!-- Bootstrap -->
+	  <link href="css/Menu.css" rel = "stylesheet">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	  <script src="js/jquery-3.4.1.min.js"></script>
+
+	  <script src ="js/Menu.js"></script> 
+	  <script src="js/script.js"></script>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+  </head>
+  <body>
+  	<!-- body code goes here -->
+	 <div class="container-fluid">
+		  
+		<p id="sign"><strong>Sign In</strong></p>
+		  <a id ="Cart"  class = "ml-auto float-right" href="Cart.html"><i class="fas fa-shopping-cart"></i></a>
+	  </div>
+
+    <div>
+	  <a href = "index.html"><h1 class="text-center" id ="title">Emperor</h1></a>
+		<h2 class="text-center" id = "subtitle">Sushi Restaurant</h2>
+  	</div>
+	  
+	  <div class = "container-fluid d-inline text-center">
+	    <ul id = "Pages"  >
+			  <li class = "mr-5 ml-3 float-left"><a href="Menu.html">Menu</a></li>
+			  <li class ="float-left"><a href="Gallery.html">Gallery</a></li>
+			  <li class = "ml-5"><u>Categories</u></li>
+			  <li class = "float-right ml-5 mr-5"><a href="About.html">About Us</a></li>
+		  <li class = "float-right "><a href="Location.html">Location</a></li>
+		  </ul>
+	  </div>
+
+	  <div id = "Categories" class = "text-center">
+	  		
+	  	  <button id = "Ga" type="button" class="dot mr-5 "></button>
+		  <button id = "Gs"  type="button" class="dot mr-5 ml-5"></button>
+		  <button id = "Gso" type="button" class="dot mr-5 ml-5"></button>
+		  <button  id = "Gsa" type="button" class="dot mr-5 ml-5"></button>
+		  <button id = "Gb" type="button" class="dot ml-5"></button>
+	  		
+	  </div>
+	  
+	  <div class = "text-center  col-xl-12">
+		  <ul id = "category">
+			  <li class = "mr-3 ml-3">Appetizers</li>
+			  <li class = "ml-5 mr-4">Special Rolls</li>
+			  <li class = "ml-5 mr-5">Soups</li>
+			  <li class = "ml-5 mr-5">Salads</li>
+			  <li class = "ml-5 mr-5">Beverages</li>
+		  </ul>
+    </div>
+
+    <div id ="MenuList" class="carousel slide carousel-multi-item" data-interval="false">
+
+      <!--Controls-->
+      <div class="controls-top offset-xl-0 col-xl-12 text-center">
+        <a class="btn-floating" href="#MenuList" data-slide="prev"><i class="fas fa-chevron-left mr-5"></i></a>
+        <a class="btn-floating" href="#MenuList" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+      </div>
+      <!--/.Controls-->
+    
+      <!--Slides-->
+      <div id="slides" class="carousel-inner" role="listbox">
+    
+        
+    
+      </div>
+      <!--/.Slides-->
+    
+    </div>
+    <!--/.Carousel Wrapper-->
+
+
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 id="ItemText" class="modal-title">text</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+   
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

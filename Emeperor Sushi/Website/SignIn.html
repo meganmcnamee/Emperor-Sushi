@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emperor Sushi - Sign In</title>
+    <!-- Bootstrap -->
+	 <link href = "css/SignIn.css" rel = "stylesheet">
+	 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  </head>
+  <body>
+  	<!-- body code goes here -->
+	 
+    <div>
+		<a href = "index.html"><h1 class="text-center" id ="title">Emperor</h1></a>
+		<h2 class="text-center pb-5" id = "subtitle">Sushi Restaurant</h2>
+  	</div>
+	<div class="text-center text-danger">
+		<p id="error" style="display: none;">Username or password is incorrect</p>
+	</div>
+  <form class="offset-xl-4 col-xl-4  mt-5" id = "SignIn-Form">
+	  <div class="form-group ">
+	    <input type="text" class="form-control p-4" id="Username" placeholder="Username">
+	  		<div class="form-group">
+	   			<br>
+	    		<input type="password" class="form-control p-4" id="Password" placeholder="Password">
+   			</div>
+	  		<div class = "text-center">
+	    		<h6 class = "text-white mt-4">Dont have an account? <a href="SignUp.html" id ="signup">Sign up today!</a> </h6>
+	  			<button type="submit" class=" btn btn-primary text-center bg-danger mt-4">Sign In</button>
+		   </div>
+	 </div>
+  </form>
+  <div>
+  <img src="Images/Leaves_Image.png" width="400" height="400" alt=""/> <img src="Images/Leaves_Image_flip.png" width="400" height="400" class = "float-right" alt=""/></div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  <script src="js/SignIn.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+	
+</html>

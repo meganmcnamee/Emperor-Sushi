@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Emperor Sushi - Checkout</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href ="css/Checkout.css">
+
+  </head>
+  <body>
+    
+     <div class="container-fluid">
+		  
+      <p id="sign"><strong>Sign In</strong></p>
+		  <a id ="Cart"  class = "ml-auto float-right" href="Cart.html"><i class="fas fa-shopping-cart"></i></a>
+	  </div>
+
+    <div>
+		<a href = "index.html"><h1 class="text-center" id ="title">Emperor</h1></a>
+		<h2 class="text-center" id = "subtitle">Sushi Restaurant</h2>
+  	</div>
+	  
+	  <div  class = "container-fluid d-inline">
+		  <ul id = "Pages"  >
+			  <li class = "mr-5 ml-3"><a href="Menu.html">Menu</a></li>
+			  <li><a href="Gallery.html">Gallery</a></li>
+			  <li class = "float-right ml-5 mr-5"><a href="About.html">About Us</a></li>
+			  <li class = "float-right "><a href="Location.html">Location</a></li>
+		  </ul>
+	  </div>
+
+<!--Information-->
+<h2 class= "m-4 text-center">Enter Information</h2>
+  <form class="fa-pull-right ">
+<div class="card offset-xl-0 col-xl-12" id="card">
+  <div class="card-header"><h4 class="text-center">Order Information</h4>  
+    </div>
+  <div class="card-body">
+    <h5 class="card-title text-center">Order Summary</h5>
+    <p id="Item-Count" class="card-text">Items: </p>
+    <p id="Order-Cost" class="card-text text-left">Total before tax: </p>
+</div>
+ <p id="Order-Total" class="card-footer ">Order Subtotal: </p>
+</div>
+	</form> 
+<div>
+<div class="container-fluid text-center justify-content-center ">
+<form class="needs-validation  align-items" >
+	<div class="col-md-6 order-md-1 col-xl-4 justify-content-center offset-xl-4" >
+  
+  
+  <div class="row">
+    <div class="col-md-6 mb-3 col-xl-5 offset-xl-1">
+    <label for="FirstName">First Name</label>
+    <input type="text" class="form-control text-white" id="FirstName" required>
+    <div class="invalid-feedback">
+      Please enter a valid First Name
+    </div>
+   </div>
+  <div class="col-md-6 mb-3 col-xl-5">
+    <label for="LastName">Last Name</label>
+    <input type="text" class="form-control text-white" id="LastName" required>
+    <div class="invalid-feedback">
+      Please enter a valid Last Name
+    </div>
+  </div> 
+</div> 
+
+<div class="row">
+  <div class="mb-2 col-xl-10 offset-xl-1">
+    <label for="Email">Email</label>
+    <input type="email" class="form-control text-white" id="Email" required>
+    <div class="invalid-feedback">
+      Please enter a valid email address
+    </div>
+  </div>
+  <div class ="col-md-6 mb-3 col-xl-10 col-lg-12 offset-xl-1">
+    <label for="Address">Address</label>
+    <input type="text" class="form-control text-white" id="Address" required>
+    <div class="invalid-feedback">
+      Please enter a valid address
+    </div>
+  </div>
+  <div class ="col-md-6 mb-3 col-xl-10 col-lg-12 offset-xl-1">
+    <label for="State">State</label>
+    <input type="text" class="form-control text-white" id="State" required>
+    <div class="invalid-feedback">
+      Please enter a valid state
+    </div>
+  </div>
+  <div class ="col-md-6 mb-3 col-xl-10 col-lg-12 offset-xl-1">
+    <label for="City">City</label>
+    <input type="text" class="form-control text-white" id="City" required>
+    <div class="invalid-feedback">
+      Please enter a valid City
+    </div>
+  </div>
+  <div class ="col-md-6 mb-3 col-xl-10 col-lg-12 offset-xl-1">
+    <label for="Zip">Zip</label>
+    <input type="text" class="form-control text-white" id="Zip" required>
+    <div class="invalid-feedback">
+      Please enter a valid Zip
+    </div>
+  </div>
+</div>
+	</div> 
+    
+
+	
+  </form>
+  </div>
+
+</div>	  
+	  
+<br><br>
+  
+
+	 
+<h3 class="pt-2 m-4 text-center" >Enter Payment Information</h3>
+	  
+	  
+ 
+<div class="container-fluid align-items-center justify-content-center">
+		<form id="Checkout-Form" class="needs-validation" >
+<div>
+  
+  
+  <div class="row text-center ">
+    <div class="col-md-6 mb-3 col-xl-2 offset-xl-4">
+    <label for="Name">Name of Card Holder</label>
+    <input type="text" class="form-control text-white" id="Name">
+    <div class="invalid-feedback">
+      Please enter a valid Cardholder name
+    </div>
+	  </div>
+   
+  <div class="col-md-6 mb-3 col-xl-2 offset-xl-0">
+    <label for="Number">Number on card</label>
+    <input type="text" class="form-control text-white" id="Number">
+    <div class="invalid-feedback">
+      Please enter a Card number
+    </div>
+	  </div>
+	</div>
+	
+ <div class="row text-center ">
+    <div class="mr-3 col-md-6 mb-3 col-xl-2 offset-xl-4">
+    <label for="Exp">Expiration Date</label>
+    <input type="text" class="form-control text-white" id="Exp">
+    <div class="invalid-feedback">
+      Please enter a valid Expiration Date
+    </div>
+   </div>
+  <div class="ml-5 col-md-6 mb-3 col-xl-1 offset-xl-1">
+    <label for="CVV">CVV</label>
+    <input type="text" class="form-control text-white" id="CVV">
+    <div class="invalid-feedback">
+      Please enter a valid CVV
+    </div>	  
+  </div> 
+</div>
+  </div>
+  <div class="text-center p-4">
+  <button type="submit" class="btn btn-danger btn-lg " id = "Proceed">Submit Order</button>	
+	</div>
+  </form>
+	  </div>
+ 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="js/Checkout.js"></script>
+    <script src="js/script.js"></script>
+	
+</body>
+</html>	

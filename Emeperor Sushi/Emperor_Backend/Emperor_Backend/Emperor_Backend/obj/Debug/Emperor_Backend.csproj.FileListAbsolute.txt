@@ -1,0 +1,16 @@
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\Emperor_Database.mdf
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\Emperor_Database_log.ldf
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\Emperor_Backend.dll.config
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\Emperor_Backend.dll
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\Emperor_Backend.pdb
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\EntityFramework.dll
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\EntityFramework.xml
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\obj\Debug\Emperor_Backend.csproj.CoreCompileInputs.cache
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\obj\Debug\Emperor_Backend.csproj.CopyComplete
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\obj\Debug\Emperor_Backend.dll
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\obj\Debug\Emperor_Backend.pdb
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\School\CSC 430\Final\Emperor_Backend\Emperor_Backend\Emperor_Backend\obj\Debug\Emperor_Backend.csprojAssemblyReference.cache

@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image: url("../Images/Bg_Image.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#sign 
+{
+	color: white;
+	font-size: x-large;
+	text-decoration: none !important;
+}
+
+#Cart
+{
+	color: white;
+	font-size: x-large;
+	text-decoration: none !important;
+	
+}
+
+#title
+{
+	color: white;
+	font-size: 50px;
+}
+
+#subtitle
+{
+	color: firebrick;
+	font-size: 50px;
+	
+}
+
+#Pages li, a
+{
+	color: white !important;
+	font-size: x-large;
+	text-decoration: none !important;
+	display: inline;
+	
+}
+
+#japanese
+{
+	color: gold;
+}
+
+#order
+{
+	background-color: #E55D5F;
+	display: table;
+	margin: auto;
+}
+

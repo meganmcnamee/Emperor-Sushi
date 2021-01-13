@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+    background: url(../Images/Bg_Image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+#sign 
+{
+	color: white;
+	font-size: x-large;
+	text-decoration: none !important;
+}
+
+#Cart
+{
+	color: white;
+	font-size: x-large;
+	text-decoration: none !important;
+	
+}
+
+#Pages li, a
+{
+	color: white !important;
+	font-size: 30px;
+	text-decoration: none !important;
+	display: inline;
+}
+
+#title
+{
+	color: white;
+	font-size: 50px;
+}
+
+#subtitle
+{
+	color: firebrick;
+	font-size: 50px;
+	
+}
+
+table
+{
+	margin: auto;
+}
